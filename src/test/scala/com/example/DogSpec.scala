@@ -6,7 +6,7 @@ class DogSpec extends FlatSpec with Matchers {
 
   val dog = new Dog
 
-  "A dog" should "Bark!" in {
-      dog.vocalise should be("Bark!")
+  "A dog" should "Bark" in {
+      dog.vocalise should be("Bark")
   }
 }
