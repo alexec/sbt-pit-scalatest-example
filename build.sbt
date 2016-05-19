@@ -14,4 +14,5 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.6" % "test"
 // Pitest
 verbose := true
 timestampedReports := false
-
+coverageThreshold := 100
+mutationThreshold := 75
